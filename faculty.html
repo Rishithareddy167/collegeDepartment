@@ -1,1 +1,128 @@
-<h2>faculty page</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Page - ABC College</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f6fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0b2545;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        h2 {
+            text-align: center;
+            color: #123c69;
+            margin-top: 30px;
+        }
+
+        .faculty-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .faculty-card {
+            background-color: white;
+            width: 230px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #cccccc;
+        }
+
+        .faculty-card h3 {
+            color: #123c69;
+        }
+
+        .faculty-card p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ABC College</h1>
+        <p>Department of Computer Science and Engineering</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h2>Meet Our Faculty</h2>
+
+    <div class="faculty-container">
+
+        <div class="faculty-card">
+            <h3>Dr. Anil Kumar</h3>
+            <p><strong>Designation:</strong> Head of Department</p>
+            <p><strong>Specialization:</strong> Computer Science</p>
+            <p><strong>Experience:</strong> 15 Years</p>
+        </div>
+
+        <div class="faculty-card">
+            <h3>Mrs. Priya Sharma</h3>
+            <p><strong>Designation:</strong> Assistant Professor</p>
+            <p><strong>Specialization:</strong> Data Science</p>
+            <p><strong>Experience:</strong> 8 Years</p>
+        </div>
+
+        <div class="faculty-card">
+            <h3>Mr. Rahul Verma</h3>
+            <p><strong>Designation:</strong> Assistant Professor</p>
+            <p><strong>Specialization:</strong> Web Development</p>
+            <p><strong>Experience:</strong> 5 Years</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ABC College | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
