@@ -1,1 +1,148 @@
-<h2>Contact page</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page - ABC College</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f6fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0b2545;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 35px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #cccccc;
+        }
+
+        h2 {
+            text-align: center;
+            color: #123c69;
+        }
+
+        .contact-info {
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #123c69;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2563a6;
+        }
+
+        footer {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ABC College</h1>
+        <p>Department of Computer Science and Engineering</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="contact-container">
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-info">
+            <p><strong>College:</strong> ABC College</p>
+            <p><strong>Department:</strong> Computer Science and Engineering</p>
+            <p><strong>Email:</strong> cse@abccollege.edu</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Address:</strong> Hyderabad, Telangana, India</p>
+        </div>
+
+        <h2>Send Us a Message</h2>
+
+        <form onsubmit="event.preventDefault(); alert('Thank you for contacting ABC College!');">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ABC College | All Rights Reserved</p>
+        <p>Developed using Git and GitHub Collaboration</p>
+    </footer>
+
+</body>
+</html>
+
